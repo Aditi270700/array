@@ -1,16 +1,14 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main ()
+int main (){
+for(int i=1; i<=3; i++)
 {
-for(int r=1; r<=3; r++)
+for(int s=3; s>i; s--)
 {
-for(int s=3; s>r; s--)
-{
-cout << " ";
+    cout<<" ";
 }
-for(int c=1; c<=r; c++)
-{
-cout<<char(c+64);
+for(int j=i; j>=1; j--){
+ cout<<j;
 }
 cout<<"\n";
 }
